@@ -1,12 +1,12 @@
 
 :root{
-    --primary-text-colour:#757575;  
-    --tite-text-colour: #212121;
+    --primary-text-color:#757575;  
+    --title-text-color: #212121;
     --accent-color:#2196F3;
 }
 .page{
     background-color: #fff;
-    color:var(--primary-text-colour) ;}
+    color:var(--primary-text-color) ;}
   .list {
       list-style: none;
   }
@@ -17,16 +17,26 @@
     .site-nav .link:hover, .site-nav .link:focus{
        color:var(--accent-color) ; 
     }
+    /* auth-nav */
+        .auth-nav .link {
+            color: var(--primary-text-color);
+        }
+        .auth-nav .link:hover,
+        .auth-nav .link:focus {
+            color: var(--accent-color);}
+    /* hero */
     .hero{
         color: #fff;
         background-color: #2F303A;
     }
-    .section-title{
-        color: var(--tite-text-colour);
+    .section-title{color:black;}
+    /* feauture */
+    .features-list .title{
+        color:var(--title-text-color);
     }
-    .feature-list .title{
-        color:var(--tite-text-colour);
-    }
+    /* work */
+    /* employee */
+    .employee-list .title{color:var(--title-text-color)}
 
 /* основний колір тексту #212121 */
 /* другорядний колір тексту #757575 */
