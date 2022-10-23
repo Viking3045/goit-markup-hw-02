@@ -1,7 +1,12 @@
 
+:root{
+    --primary-text-colour:#757575;  
+    --tite-text-colour: #212121;
+    --accent-color:#2196F3;
+}
 .page{
     background-color: #fff;
-    color: #757575;}
+    color:var(--primary-text-colour) ;}
   .list {
       list-style: none;
   }
@@ -10,17 +15,17 @@
     .site-nav .link { color: #212121;;
     }
     .site-nav .link:hover, .site-nav .link:focus{
-       color:#2196F3; ; 
+       color:var(--accent-color) ; 
     }
     .hero{
         color: #fff;
         background-color: #2F303A;
     }
     .section-title{
-        color: #212121;
+        color: var(--tite-text-colour);
     }
     .feature-list .title{
-        color: #212121;
+        color:var(--tite-text-colour);
     }
 
 /* основний колір тексту #212121 */
