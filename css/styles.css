@@ -1,0 +1,26 @@
+
+.page{
+    background-color: #fff;
+    color: #212121;
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;}
+    .list{
+        list-style: none;
+    }
+
+/* основний колір тексту #212121 */
+/* другорядний колір тексту #757575 */
+/* і ще один колір тексту #FFFFFF */
+/* акцент  #2196F3 */
+/* фон колір другорядний: #2F303A */
+/* тел і меіл футера color: rgba(255, 255, 255, 0.6); */
+/* фон команди background #F5F4FA */
+фон основний background: #FFFFFF;
+
+.link{
+    color:  #212121;
+}
+.link:hover
+.link:focus {color: #2196F3;
+}
